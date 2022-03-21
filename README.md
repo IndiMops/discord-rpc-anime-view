@@ -15,5 +15,18 @@ pip install pypresence
 ```
 Go to [Discord Developer Portal](https://discord.com/developers/applications) and create a **New Application**
 <br>
-<img align = "left" width = "500" src = "https://media.discordapp.net/attachments/939569454390603837/955280925707599942/unknown.png">
-<img align = "left" width = "400" src = "https://media.discordapp.net/attachments/939569454390603837/955282322847039588/unknown.png">
+<img  width = "500" src = "https://media.discordapp.net/attachments/939569454390603837/955280925707599942/unknown.png">
+<img  width = "400" src = "https://media.discordapp.net/attachments/939569454390603837/955282322847039588/unknown.png">
+<br>
+Copy Application ID
+<br>
+<img src = "https://media.discordapp.net/attachments/939569454390603837/955283024126283857/unknown.png">
+And put here
+<br>
+<img src = "https://media.discordapp.net/attachments/939569454390603837/955286561933631559/unknown.png">
+<br>
+Now it remains to add pictures, go to the **Rich Presence** tab on the portal and add anime avatar and the player icon (in the script folder it will). We change the name of the anime avatar on the `cover`, and the player icon on the `play`.
+<br>
+<img align = "middle" src = "https://media.discordapp.net/attachments/939569454390603837/955287292090646598/unknown.png">
+<br>
+<img src = "https://media.discordapp.net/attachments/939569454390603837/955290053595234304/unknown.png">
