@@ -9,5 +9,10 @@ ___
 ## Installation
 To begin, make sure you install [Python](https://www.python.org/downloads/) versions ***3.8 or better***. Because PyPresence library work only from version 3.8.
 <br><br>
-Upload or clone repositories (as you are more convenient). Install a **PyPresence** library through `PiP`
-
+Upload or clone repositories (as you are more convenient). Install a **PyPresence** library through `PiP`.
+```
+pip install pypresence 
+```
+Go to [Discord Developer Portal](https://discord.com/developers/applications) and create a **New Application**
+<br>
+<img width = "500" src = "https://media.discordapp.net/attachments/939569454390603837/955280925707599942/unknown.png">
