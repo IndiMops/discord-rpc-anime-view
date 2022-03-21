@@ -7,5 +7,7 @@
 
 ___
 ## Installation
-To begin, make sure you have a Python installed. To do this simply press the `Win + R` keyboard keys.<br>
-<img width = "400" src = "https://cdn.discordapp.com/attachments/939569454390603837/955269421746782208/step2.png">
+To begin, make sure you install [Python](https://www.python.org/downloads/) versions ***3.8 or better***. Because PyPresence library work only from version 3.8.
+<br><br>
+Upload or clone repositories (as you are more convenient). Install a **PyPresence** library through `PiP`
+
