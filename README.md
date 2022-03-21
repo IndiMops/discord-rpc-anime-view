@@ -15,4 +15,5 @@ pip install pypresence
 ```
 Go to [Discord Developer Portal](https://discord.com/developers/applications) and create a **New Application**
 <br>
-<img width = "500" src = "https://media.discordapp.net/attachments/939569454390603837/955280925707599942/unknown.png">
+<img align = "left" width = "500" src = "https://media.discordapp.net/attachments/939569454390603837/955280925707599942/unknown.png">
+<img align = "left" width = "400" src = "https://media.discordapp.net/attachments/939569454390603837/955282322847039588/unknown.png">
