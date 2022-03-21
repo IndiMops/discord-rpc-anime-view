@@ -1,33 +1,21 @@
 from pypresence import Presence
 from time import time
 
-RPC = Presence("<id>")#APPLICATION ID
-"""
-btns = [
-    {
-        "label": "Website",
-        "url": "https://mops-storage.xyz"
-    },
-    {
-        "label": "Code",
-        "url": "https://github.com/INDMops/discord-rpc-anime-view"
-    }
-]
-"""
-ns = input("Введіть номер серії: ")
-na = input("Введіть назву аніме, котре переглядаєте: ")
-nt = int(input("Введіть тривалість серії(в секундах: 1 хв. = 60 сек.): "))
+RPC = Presence("<app id>")#APPLICATION ID
+
+ns = input("Enter the episode number: ")
+na = input("Enter an anime name that is viewed: ")
+nt = int(input("Enter the duration of the series (in seconds: 1 min = 60 sec.): "))
 
 RPC.connect()
 RPC.update(
-    state = "Серія: "+ns, #другий рядок
-    details = "Аніме: "+na, #перший рядок
-    end = time() + nt, #time - бере поточний час і додає nt(тривалість серії в секундах, яку вводиться) 
-    #buttons=btns, #вивід кнопок
-    large_image = "cover", #основне зображення
-    small_image = "play", #мале зображення, яке росташоване у правому нпижньому кутку основного зображення
-    large_text = "Серія: "+ns, #текст виводиться коли на основне зображення навести курсор
-    small_text = "Відворюється" #текст виводиться коли на додаткове зображення навести курсор
+    details = "Name: " + na,
+    state = "Episode: " + ns,
+    end = time() + nt,
+    large_image = "cover",
+    small_image = "play",
+    large_text = "Episode: " + ns,
+    small_text = "Play"
 )
 
-input("Нажми \"Enter\", щоб вийти.")
+input("Press Enter to exit.")
