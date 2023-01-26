@@ -1,5 +1,5 @@
 # discord-rpc-anime-view
-![Star repo](https://img.shields.io/packagist/stars/INDMops/discord-rpc-anime-view?color=yellow&label=STARS&logoColor=yellow) ![Python version supported](https://img.shields.io/pypi/pyversions/pypresence?color=%23ffe819) [![PyPresence](https://img.shields.io/pypi/v/pypresence?color=lime&label=PyPresence)](https://github.com/qwertyquerty/pypresence) ![](https://img.shields.io/github/languages/top/INDMops/discord-rpc-anime-view)
+![Star repo](https://img.shields.io/packagist/stars/INDMops/discord-rpc-anime-view?color=yellow&label=STARS&logoColor=yellow) ![Python version supported](https://img.shields.io/pypi/pyversions/pypresence?color=%23ffe819) [![PyPresence](https://img.shields.io/pypi/v/pypresence?color=lime&label=PyPresence)](https://github.com/qwertyquerty/pypresence) ![](https://img.shields.io/github/languages/top/INDMops/discord-rpc-anime-view) [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
 **discord-rpc-anime-view** - utility that will help show anime that you are currently browsing. Enter an anime name, number and duration of the series, after which it will display Discord profiles.
 <p align = "center">
